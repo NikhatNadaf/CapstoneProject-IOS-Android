@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="22A5266r" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Doctor" representedClassName="Doctor" syncable="YES" codeGenerationType="class"/>
+    <entity name="Patient" representedClassName="Patient" syncable="YES" codeGenerationType="class">
+        <attribute name="contact" optional="YES" attributeType="String"/>
+        <attribute name="disease" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+</model>
