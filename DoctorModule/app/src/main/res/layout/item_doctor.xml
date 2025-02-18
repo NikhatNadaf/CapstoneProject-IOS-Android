@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:radius="8dp"
+    android:layout_marginBottom="12dp">
+
+    <!-- Doctor Name -->
+    <TextView
+        android:id="@+id/tvDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp" />
+
+    <!-- Speciality -->
+    <TextView
+        android:id="@+id/tvSpeciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speciality"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingBottom="4dp" />
+
+    <!-- Slot -->
+    <TextView
+        android:id="@+id/tvSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slot"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingBottom="4dp" />
+
+    <!-- Time Available -->
+    <TextView
+        android:id="@+id/tvTimeAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Available"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingBottom="8dp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Edit"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
